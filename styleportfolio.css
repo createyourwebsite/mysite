@@ -151,13 +151,12 @@ h4 {
     word-spacing: 0.3em;
     margin: 100px auto 100px auto;
     padding: 3px;
-    border: 10px groove white;
     width: 80%;
     text-shadow: 2px 2px 2px white;
     border-radius: 50px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background: linear-gradient(90deg, rgba(6, 4, 4, 1) 15%, rgba(255, 1, 1, 0.8538602941176471) 50%, rgba(0, 0, 0, 1) 85%);
+  
 }
 
 
