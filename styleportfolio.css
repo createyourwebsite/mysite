@@ -183,6 +183,7 @@ body {
 /*titre*/
 
 .titre{
+    display: flex;
     width: 80%;
     text-align: center;
     margin: 100px auto 0px auto;
