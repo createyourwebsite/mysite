@@ -1,0 +1,214 @@
+
+/* section 1 */
+
+
+@media (max-width:1500px) {
+
+    .section1{
+        clip-path: polygon(10% 0%, 80% 0%, 100% 0, 100% 100%, 65% 100%, 0 25%, 0 0);
+    }}
+    
+    
+    @media (max-width:1450px) {
+    
+        
+        .section1 p{
+    
+            font-size: 30px;
+        }
+    }
+
+    
+    @media (max-width:1000px) {
+    
+        .img{
+
+            position : absolute;
+            top: 50%;
+            left: 18%;
+            z-index: 999;
+            width: 60%;
+            height: auto;
+            
+        }
+
+        .section1 p{
+   
+            font-size: 20px;
+            line-height: 15vh;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: var(--fontcolor1);
+            width: 95%;
+        
+        }
+        .section1{
+
+            clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 100%, 65% 100%, 0 50%, 0 0);
+        }
+    
+    }
+
+    @media (max-width:600px) {
+
+        .img{
+
+            position : absolute;
+            top: 60%;
+            left: 12%;
+            z-index: 999;
+            width: 60%;
+            height: auto;
+            
+        }}
+
+
+/* section 2 */
+
+@media (max-width:1700px) {
+    .section2 p{
+
+        top: 200px;
+        font-size: 35px;
+
+    
+    }}
+
+ @media (max-width:1450px) {
+        .section2 p{
+    
+            top: 200px;
+            font-size: 30px;
+    
+        
+        }}
+
+ @media (max-width:1250px) {
+            .section2 p{
+        
+                top: 200px;
+                font-size: 25px;
+        
+            
+            }}
+
+
+@media (max-width:900px) {
+    .section2 p{
+            
+        top: 200px;
+        font-size: 30px;
+            
+                
+                }
+        .img2{
+            position: absolute;
+            z-index: 1000;
+            height: auto;
+            top : 120%;
+            left: 0%;   
+                }
+            
+            }
+
+            @media (max-width:935px) {
+                .section2 p{
+                        
+                    top: 200px;
+                    font-size: 20px;
+                        
+                            
+                            }
+                    .img2{
+                        position: absolute;
+                        z-index: 1000;
+                        height: auto;
+                        top : 120%;
+                        left: 0%;   
+                            }
+                        
+                        }
+
+ @media (max-width:600px) {
+    .section2 p{
+            
+        top: 200px;
+        font-size: 15px;
+        line-height: 15vh;
+            
+                
+                }
+        .section2{clip-path: polygon(65% 0, 100% 0, 100% 65%, 100% 70%, 100% 100%, 50% 100%, 25% 100%, 0% 70%, 0% 33%);}
+        .img2{
+            position: absolute;
+            z-index: 1000;
+            height: auto;
+            top : 105%;
+            left: 5%;   
+                }
+        
+                }
+
+
+@media (max-width:800px) {
+    label {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    progress{
+        
+        height: 1.5rem;
+        width: 180px;
+        margin: 30px auto 20px auto;
+    }
+
+    .mescompetences{
+        margin-top: 100px;
+    }
+    .titre{
+
+        font-size: 30px;
+    }
+
+
+}
+
+    @media (max-width:470px) {
+        label {
+            text-align: center;
+            font-size: 1rem;
+        }
+        progress{
+            
+            height: 1rem;
+            width: 120px;
+            margin: 30px auto 20px auto;
+        }
+    
+        .mescompetences{
+            margin-top: 30px;
+        }}
+
+
+        @media (max-width:700px) {
+            .logo1{
+                width: 50px;
+            }
+            .logo{
+                padding-top: 100px;
+                
+            }
+        
+            .num {
+                color: white;
+                margin: auto;
+                font-size: 30px;
+                
+            }
+            .numeros{
+                padding-top: 100px;
+                line-height: 4em;
+               
+            }
+        }

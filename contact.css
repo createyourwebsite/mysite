@@ -1,0 +1,50 @@
+:root{
+
+    --backgroundsection1 : #416788;
+    --backgroundsection2 : #c3c3c3;
+    --fontcolor1 : #03012C;
+  }
+
+
+
+.section5{
+
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    background: var(--backgroundsection1);
+    clip-path: polygon(0 20%, 50% 0, 100% 21%, 100% 100%, 0 100%, 0% 50%);
+    color: black;
+}
+
+h3{
+    color: var(--backgroundsection2);
+}
+.logo{
+    padding-top: 200px;
+    
+}
+.logo1{
+    width: 150px;
+}
+
+
+
+.logo ul {
+	display: flex;
+    flex-wrap: wrap;
+	flex-direction: row;
+	list-style: none;
+    justify-content: space-evenly;
+}
+
+.numeros{
+    padding-top: 200px;
+}
+.num {
+	color: var(--backgroundsection2);
+	margin: auto;
+	font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+

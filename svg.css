@@ -1,0 +1,74 @@
+svg{
+
+    position: absolute;
+    height: 50px;
+    z-index: 1000;
+    right: 2vh;
+    bottom : 2vh;
+    stroke: var(--backgroundsection2);
+}
+
+.svg2{
+    rotate: 180deg;
+    position: absolute;
+    height: 50px;
+    z-index: 1000;
+    right: 2vh;
+    bottom : -10vh;
+    stroke: var(--backgroundsection2);
+
+}
+
+.svg3{
+    
+    position: absolute;
+    height: 50px;
+    z-index: 1000;
+    right: 2vh;
+    bottom : -98vh;
+    stroke: var(--backgroundsection2);
+}
+
+.svg4{
+    rotate: 180deg;
+    position: absolute;
+    height: 50px;
+    z-index: 1000;
+    right: 2vh;
+    bottom : -110vh;
+    
+}
+
+.svg5{
+    
+    position: absolute;
+    height: 50px;
+    z-index: 1000;
+    right: 2vh;
+    bottom : -198vh;
+    stroke: var(--backgroundsection1);
+    
+}
+
+
+.svg6{
+    rotate: 180deg;
+    position: absolute;
+    height: 50px;
+    z-index: 1000;
+    right: 2vh;
+    bottom : -310vh;
+    stroke: var(--backgroundsection1);
+    
+}
+
+.svg7{
+   
+    position: absolute;
+    height: 50px;
+    z-index: 1000;
+    right: 2vh;
+    bottom : -298vh;
+    stroke: var(--backgroundsection1);
+    
+}

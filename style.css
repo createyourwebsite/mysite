@@ -1,0 +1,89 @@
+:root{
+
+    --backgroundsection1 : #416788;
+    --backgroundsection2 : #c3c3c3;
+    --fontcolor1 : #03012C;
+  }
+
+html{
+
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+    background-color: var(--backgroundsection2);
+}
+.section1{
+    
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    background: var(--backgroundsection1);
+    clip-path: polygon(10% 0%, 80% 0%, 100% 0, 100% 100%, 65% 100%, 0 25%, 0 0);
+
+    
+}
+
+.img{
+
+    position : absolute;
+    top: 25%;
+    left: 12%;
+    z-index: 999;
+    width: 40%;
+    height: auto;
+   
+}
+
+.section1 p{
+   
+    font-size: 40px;
+    line-height: 15vh;
+    text-align: right;
+    margin: 200px auto 0px auto;
+    color: var(--fontcolor1);
+    width: 95%;
+
+}
+
+
+
+
+
+.section2 {
+    
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    background: var(--backgroundsection1);
+    clip-path: polygon(65% 0, 100% 0, 100% 65%, 100% 70%, 100% 100%, 50% 100%, 25% 100%, 0% 70%, 36% 33%);
+
+
+}
+.img2{
+    position: absolute;
+    z-index: 1000;
+    height: auto;
+    width: 40%;
+    right: 45%;   
+}
+
+.section2 p{
+    position: relative;
+    top: 200px;
+    font-size: 40px;
+    line-height: 15vh;
+    text-align: right;
+    margin: 0px auto 0px auto;
+    color: var(--fontcolor1);
+    width: 95%;
+    z-index: 1000;
+
+}
+
+
