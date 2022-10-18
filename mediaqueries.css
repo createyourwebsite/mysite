@@ -152,6 +152,11 @@
 
 
 @media (max-width:800px) {
+    
+   .titre {
+	
+       font-size: 40px; }
+    
     label {
         text-align: center;
         font-size: 1.5rem;
